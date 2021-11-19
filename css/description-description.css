@@ -1,0 +1,29 @@
+.description{
+    width: 100%;
+    height: 25rem;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.description>article{
+    width: 80%;
+    min-height: 15rem;
+    height: auto;
+    max-height: 20rem;
+    border: 4px solid #808080;
+    border-radius: 10px;
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.description>article>.inner{
+    width: 80%;
+    height: 90%;
+    margin: 10% 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
