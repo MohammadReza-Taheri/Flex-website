@@ -6,15 +6,110 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flex-box-HW</title>
     <link rel="stylesheet" href="./css/temp.css">
+    <link rel="stylesheet" href="./css/sd-ldFramework.css">
+    <link rel="stylesheet" href="./css/description-icons.css">
+    <link rel="stylesheet" href="./css/descriptions-rules.css">
 </head>
 <body>
     <header>
         <a href="./index.html">Description</a>
-        <a href="#">Goals</a>
-        <a href="#">Rules</a>
-        <a href="#">Sections</a>
+        <a href="./Goals.html">Goals</a>
+        <a href="./Rules.html">Rules</a>
+        <a href="./Sections.html">Sections</a>
     </header>
     <hr>
+    <section class="icons">
+        <div class="inner">
+            <div class="icon-div">
+                <img src="https://images.vexels.com/media/users/3/216107/isolated/lists/270cef61af87faa1b5d2bf685103d6f7-classroom-rules-label.png" alt="rules-icon">
+                <h4>Rules</h4>
+                <div><a href="#">+more</a></div>
+            </div>
+            <div class="icon-div desc">
+                <img src="https://images.vexels.com/media/users/3/216107/isolated/lists/270cef61af87faa1b5d2bf685103d6f7-classroom-rules-label.png" alt="rules-icon">
+                <h4>Rules</h4>
+                <div><a href="#">+more</a></div>
+            </div>
+            <div class="icon-div desc">
+                <img src="https://images.vexels.com/media/users/3/216107/isolated/lists/270cef61af87faa1b5d2bf685103d6f7-classroom-rules-label.png" alt="rules-icon">
+                <h4>Rules</h4>
+                <div><a href="#">+more</a></div>
+            </div>
+            <div class="icon-div desc">
+                <img src="https://images.vexels.com/media/users/3/216107/isolated/lists/270cef61af87faa1b5d2bf685103d6f7-classroom-rules-label.png" alt="rules-icon">
+                <h4>Rules</h4>
+                <div><a href="#">+more</a></div>
+            </div>
+            <div class="icon-div desc">
+                <img src="https://images.vexels.com/media/users/3/216107/isolated/lists/270cef61af87faa1b5d2bf685103d6f7-classroom-rules-label.png" alt="rules-icon">
+                <h4>Rules</h4>
+                <div><a href="#">+more</a></div>
+            </div>
+            <div class="icon-div desc">
+                <img src="https://images.vexels.com/media/users/3/216107/isolated/lists/270cef61af87faa1b5d2bf685103d6f7-classroom-rules-label.png" alt="rules-icon">
+                <h4>Rules</h4>
+                <div><a href="#">+more</a></div>
+            </div>
+            <div class="icon-div desc">
+                <img src="https://images.vexels.com/media/users/3/216107/isolated/lists/270cef61af87faa1b5d2bf685103d6f7-classroom-rules-label.png" alt="rules-icon">
+                <h4>Rules</h4>
+                <div><a href="#">+more</a></div>
+            </div>
+            <div class="icon-div desc">
+                <img src="https://images.vexels.com/media/users/3/216107/isolated/lists/270cef61af87faa1b5d2bf685103d6f7-classroom-rules-label.png" alt="rules-icon">
+                <h4>Rules</h4>
+                <div><a href="#">+more</a></div>
+            </div>
+            <div class="icon-div desc">
+                <img src="https://images.vexels.com/media/users/3/216107/isolated/lists/270cef61af87faa1b5d2bf685103d6f7-classroom-rules-label.png" alt="rules-icon">
+                <h4>Rules</h4>
+                <div><a href="#">+more</a></div>
+            </div>
+            <div class="icon-div desc">
+                <img src="https://images.vexels.com/media/users/3/216107/isolated/lists/270cef61af87faa1b5d2bf685103d6f7-classroom-rules-label.png" alt="rules-icon">
+                <h4>Rules</h4>
+                <div><a href="#">+more</a></div>
+            </div>
+            <div class="icon-div desc">
+                <img src="https://images.vexels.com/media/users/3/216107/isolated/lists/270cef61af87faa1b5d2bf685103d6f7-classroom-rules-label.png" alt="rules-icon">
+                <h4>Rules</h4>
+                <div><a href="#">+more</a></div>
+            </div>
+        </div>
+    </section>
+    <section class="descriptions-rules col-ld-8 offset-ld-2 col-sd-12">
+        <article>
+            <div class="rule-txt"><h3>Rules</h3></div>
+            <div class="hr"></div>
+            <div class="txt">
+                <ol>
+                    <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet, a!</li>
+                    <li>Iste, reiciendis suscipit. Nam debitis maiores commodi vero amet accusantium!</li>
+                    <li>Nesciunt labore distinctio molestias quos laborum rerum officia sed ad!</li>
+                    <li>Molestias minima omnis sapiente quod neque eveniet odit repellendus enim!</li>
+                    <li>Debitis, voluptatum. Tenetur voluptate officia, quidem vero suscipit libero veritatis!</li>
+                    <li>Nesciunt ratione necessitatibus voluptatem minima nam laboriosam! Autem, ratione tempore.</li>
+                    <li>A recusandae fugit architecto doloremque temporibus? Iure mollitia cupiditate provident?</li>
+                </ol>
+            </div>
+        </article>
+    </section>
     <script src="js/app.js"></script>
+    <!-- <script>
+        if (document.documentElement.scrollWidth>967) {
+            document.querySelector(".icons").addEventListener("mouseover",handler);
+            document.querySelector(".icons").addEventListener("mouseout",handler) ;
+            document.querySelector(".icons").addEventListener('scroll', this.handler, true) 
+        }
+        function handler(event) {
+            if (event.type==="mouseover" || event.type==="scroll") {
+                let x=window.getComputedStyle(document.querySelector(".icons"),null).getPropertyValue("background-color");
+                console.log(x);
+            }else if(event.type==="mouseout"){
+        
+            }
+        }
+        
+    </script> -->
 </body>
 </html>

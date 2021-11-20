@@ -1,0 +1,31 @@
+.icons::-webkit-scrollbar{
+    width: 10px;
+}
+.icons::-webkit-scrollbar-thumb{
+    background-color: rgb(32, 85, 105);
+}
+.hr{
+    width: 2px;
+    height: 80%;
+    position: relative;
+    background-color: #808080;
+}
+.descriptions-rules{
+        height: 20rem;
+        /* background-color: hotpink; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .descriptions-rules>article{
+        width: 90%;
+        height: 95%;
+        border: 3px solid #808080;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .descriptions-rules>article>div{
+        margin:10px
+    }

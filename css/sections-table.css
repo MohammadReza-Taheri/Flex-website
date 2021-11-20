@@ -1,0 +1,37 @@
+@media(max-width:967px){
+    .icons{
+    height: 45rem;
+    overflow-y: auto;
+    }
+    .inner>div{height: 15rem;}
+}
+.table{
+        height: 16rem;
+        /* background-color: green; */
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+    .table>article{
+        border: 3px solid #808080;
+    }
+    .title{
+        font-weight: bold;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .columns{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .columns>div{
+        flex-grow: 1;
+    }
+    .columns>div>p{
+        border: 1px solid gray;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }

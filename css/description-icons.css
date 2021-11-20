@@ -2,6 +2,7 @@
     width: 100%;
     height: 25rem;
     position: relative;
+    overflow-y: scroll;
 }
 .icons>.inner{
     width: 80%;
@@ -19,12 +20,12 @@
     width: 10rem;
     height: 80%;
     background-color: #808080;
-    border-top-left-radius:5% ;
-    border-top-right-radius:5% ;
+    border-radius:5% ;
+    /* border-top-right-radius:5% ; */
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    margin: 10px;
 }
 .desc>div:first-child{
     width: 5em;
@@ -38,6 +39,7 @@
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
     background: radial-gradient(circle at top right,rgb(100, 223, 0),rgb(47, 128, 0));
+    box-shadow: 5px -5px 5px 1px green inset;
 }
 .icon-div>div:last-child{
     padding: 5px 5px;
@@ -48,4 +50,23 @@
     width: 50%;
     height: auto;
     margin-top: 25px;
+}
+/*********************************************************Goal-css**/
+.goal-icons{
+    width: 100%;
+    height: 18rem;
+    /* background-color: aquamarine; */
+    position: relative;
+}
+.goal-icons>.inner{
+    width: 80%;
+    height: 90%;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    /* background-color: brown; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
